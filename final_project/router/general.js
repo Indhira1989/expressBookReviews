@@ -113,7 +113,7 @@ public_users.get('/title/:title',async function (req, res) {
 
     try {
       // Simulating an API call to fetch books data
-      const response = await axios.get('http://localhost:5001/'); // Replace with your actual API endpoint
+      const response = await axios.get('http://localhost:5001/');
       const books = response.data;
   
       // Iterate through the books object
